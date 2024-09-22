@@ -18,6 +18,6 @@ match operation:
             print (f"cannot devide by zero")
         else:
             result = num1 / num2
-            print (f"the result is", result,".")
+            print (f"The result is [result].")
     case _:
-        print (f"invalid operation entered")
+        print (f"invalid operation entered.")
