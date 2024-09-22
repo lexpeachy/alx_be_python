@@ -5,4 +5,4 @@ number = int(input("enter a number to see its multiplication table: "))
 # Print each line of the multiplication table in the format: “X * Y = Z”, where X is the user’s number, Y is the current number in the loop, and Z is the product.
 for x in range (1, 11):
     product = number * x
-    print (number, "*", x, "=", product)
+    print(number, * x, "=", product)
