@@ -1,9 +1,9 @@
 # Ask the user to input a task description and save it into a task variable
 # Prompt for the task’s priority (high, medium, low) and save it into a priority variable
 # In a time_bound variable, Ask if the task is time-bound (yes or no)
-task = (input(f"enter your task:"))
-priority = (input(f"priority (high/medium/low):"))
-time_bound = (input(f"Is it time-bound? (yes/no):"))
+task = input(f"enter your task: ")
+priority = input(f"priority (high/medium/low): ")
+time_bound = input(f"Is it time-bound? (yes/no): ")
 # Use a Match Case statement to react differently based on the task’s priority.
 # Within the Match Case or after, use an if statement to modify the reminder if the task is time-bound.
 match priority:
