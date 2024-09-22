@@ -27,4 +27,4 @@ match priority:
             reminder += "."
     case _:
         reminder = "you have entered an invalid priority!"
-print (f"reminder")
+print (f"reminder: {reminder} ")
