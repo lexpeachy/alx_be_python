@@ -26,5 +26,5 @@ match priority:
         else:
             reminder += "."
     case _:
-        reminder = "you have entered an invalid priority"
+        reminder = "you have entered an invalid priority!"
 print(reminder)
