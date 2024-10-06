@@ -20,7 +20,7 @@ from simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
     def setup(self):
-        self.calculator = SimpleCalculator
+        self.calculator = SimpleCalculator()
     def test_add(self):
         self.assertEqual(self.calculator.add(10, 5), 15)
         self.assertEqual(self.calculator.add(-1, 5), 4)
