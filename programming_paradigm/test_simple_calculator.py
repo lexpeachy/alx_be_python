@@ -22,27 +22,18 @@ class TestSimpleCalculator(unittest.TestCase):
     def setup(self):
         self.calc = SimpleCalculator()
     def test_addition(self):
-<<<<<<< HEAD
-        self.assertEqual(self.calc.addition(10, 5), 15)
-        self.assertEqual(self.calc.addition(-1, 5), 4)
+        self.assertEqual(self.calc.add(10, 5), 15)
+        self.assertEqual(self.calc.add(-1, 5), 4)
 
     def test_subtraction(self):
-        self.assertEqual(self.calc.subtraction(10, 5), 5)
-        self.assertEqual(self.calc.subtraction(-1, 5), -6)
-=======
-        self.assertEqual(self.calculator.add(10, 5), 15)
-        self.assertEqual(self.calculator.add(-1, 5), 4)
-
-    def test_subtraction(self):
-        self.assertEqual(self.calculator.subtract(10, 5), 5)
-        self.assertEqual(self.calculator.subtract(-1, 5), -6)
->>>>>>> 6a5d54ad66ca11f1f938f807fa41bd36e4cafe3b
+        self.assertEqual(self.calc.subtract(10, 5), 5)
+        self.assertEqual(self.calc.subtract(-1, 5), -6)
     
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(10, 5), 50)
         self.assertEqual(self.calc.multiply(-1, 5), -5)
 
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(10, 5), 2)
         self.assertEqual(self.calc.divide(-10, 5), -2)
 
@@ -50,5 +41,3 @@ class TestSimpleCalculator(unittest.TestCase):
             self.calc.divide(10, 0)
 if __name__ == "__main__":
     unittest.main()
-
-
