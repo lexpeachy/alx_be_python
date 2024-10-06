@@ -1,11 +1,11 @@
 # robust_division_calculator.py:
 # Define a function safe_divide(numerator, denominator) that performs division, handling potential errors:
-def safe_divide(numerator, denominitor):
+def safe_divide(numerator, denominator):
     try:
         numerator=float(numerator)
-        denominitor=float(denominitor)
-        result = numerator/denominitor
-        return f"The result {numerator}/{denominitor} is {result}"
+        denominator=float(denominator)
+        result = numerator/denominator
+        return f"The result {numerator}/{denominator} is {result}"
     # Division by Zero: Use a try-except block to catch ZeroDivisionError.
     except ZeroDivisionError:
         return "Error: Cannot divide by zero"
