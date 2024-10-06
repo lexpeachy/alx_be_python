@@ -5,7 +5,7 @@ def safe_divide(numerator, denominitor):
         numerator = float(numerator)
         denominitor = float(denominitor)
         result = numerator/denominitor
-        return "The result of the division is {result}"
+        return f"The result of the division is {result}"
     # Division by Zero: Use a try-except block to catch ZeroDivisionError.
     except ZeroDivisionError:
         return "Error: Cannot divide by zero"
