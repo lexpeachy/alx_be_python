@@ -21,13 +21,13 @@ from simple_calculator import SimpleCalculator
 class TestSimpleCalculator(unittest.TestCase):
     def setup(self):
         self.calculator = SimpleCalculator()
-    def test_add(self):
-        self.assertEqual(self.calculator.add(10, 5), 15)
-        self.assertEqual(self.calculator.add(-1, 5), 4)
+    def test_addition(self):
+        self.assertEqual(self.calculator.addition(10, 5), 15)
+        self.assertEqual(self.calculator.addition(-1, 5), 4)
 
-    def test_subtract(self):
-        self.assertEqual(self.calculator.subtract(10, 5), 5)
-        self.assertEqual(self.calculator.subtract(-1, 5), -6)
+    def test_subtraction(self):
+        self.assertEqual(self.calculator.subtraction(10, 5), 5)
+        self.assertEqual(self.calculator.subtraction(-1, 5), -6)
     
     def test_multiply(self):
         self.assertEqual(self.calculator.multiply(10, 5), 50)
