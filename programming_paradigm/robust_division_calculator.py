@@ -11,7 +11,7 @@ def safe_divide(numerator, denominator):
         return "Error: Cannot divide by zero."
     #Non-numeric Input: Attempt to convert arguments to floats. Use a try-except block to catch ValueError for non-numeric inputs.
     except ValueError:
-        return "Error: Please enter numeric values only"
+        return "Error: Please enter numeric values only."
 
 
 
