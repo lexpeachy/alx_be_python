@@ -2,8 +2,8 @@
 # Define a function safe_divide(numerator, denominator) that performs division, handling potential errors:
 def safe_divide(numerator, denominitor):
     try:
-        numerator = float(numerator)
-        denominitor = float(denominitor)
+        numerator=float(numerator)
+        denominitor=float(denominitor)
         result = numerator/denominitor
         return f"The result of the division is {result}"
     # Division by Zero: Use a try-except block to catch ZeroDivisionError.
