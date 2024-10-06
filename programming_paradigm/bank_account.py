@@ -1,6 +1,6 @@
 #Define a class named BankAccount.
 #Use the __init__ method to initialize an account_balance attribute. Optionally, accept an initial balance parameter, defaulting to zero.
-class Backaccount():
+class Bankaccount():
     def __init__(self, initial_balance = 0):
         self.account_balance = initial_balance
 
